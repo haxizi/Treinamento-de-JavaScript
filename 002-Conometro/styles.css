@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    
+}
+body{
+    background: black;
+}
+.watch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    
+h2{
+    font-size: 140px;
+}
+.timer .blue{
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    
+    color: rgb(62, 62, 138);
+}
+.buttons{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+button{
+    border: none;
+    background-color: black;
+    font-size: 23px;
+    cursor: pointer;
+    margin-right: 25px;
+}
